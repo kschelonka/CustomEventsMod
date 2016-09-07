@@ -39,6 +39,7 @@ namespace CustomEventsMod
                 /pause 500
                 /end");
     }
+
     public static bool CheckForEvent()
     {
         if (Game1.player == null || Game1.player.currentLocation == null || Game1.CurrentEvent != null)
@@ -72,7 +73,7 @@ namespace CustomEventsMod
         Game1.player.showNotCarrying();
         return true;
     }
-        // methods related to parsing event text
+        // methods related to parsing event text for forks
     public static bool IsCustomEvent()
     {
         if (Game1.CurrentEvent == null)
