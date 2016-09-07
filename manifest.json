@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Custom Events Mod",
+  "Author": "Kat",
+  "Version": {
+    "MajorVersion": 0,
+    "MinorVersion": 1,
+    "PatchVersion": 0,
+    "Build": ""
+  },
+  "Description": "Add events without overwriting existing .xnb files",
+  "PerSaveConfigs": false,
+  "EntryDll": "CustomEventsMod.dll"
+}
