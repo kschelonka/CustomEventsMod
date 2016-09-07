@@ -48,7 +48,8 @@ namespace CustomEventsMod
 
         // logic for starting event
         // will need separate statements for other events
-        // but you could also make a hash of event names with location keys
+        // later make another function for sorting through a list of events and conditions
+        // so you can easily add more than one new event
         if (!Game1.player.eventsSeen.Contains(Hospital_SampleEvent)
             && Game1.player.currentLocation.Name == "BusStop"
             )
